@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperset.com%2Fw%2Ffull%2Fe%2Fd%2F5%2F123346.jpg&f=1&nofb=1');
+    }
+    canvas{
+    border:2px solid green;
+    animation-name:beaten_disney;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes beaten_disney{
+        from{
+            box-shadow:1x 1px 25px rgb(229, 245, 4);
+        }
+        to{box-shadow:1px 1px 25px rgb(0, 255, 200);}
+    }
